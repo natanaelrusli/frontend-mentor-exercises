@@ -107,6 +107,22 @@ body {
   top: 55%;
 }
 
+.card-back__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 87%;
+  height: 100%;
+}
+
+.card-back__cvv {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
 .right-overlay {
   width: 100%;
   background-color: var(--white);
