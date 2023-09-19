@@ -12,7 +12,35 @@
 </head>
 <body>
   <div class="container">
-    <div class="left-overlay"></div>
+    <div class="left-overlay">
+      <div class="left-overlay__card-front">
+        <div class="card-front__logo">
+          <div class="big-circle"></div>
+          <div class="small-circle"></div>
+        </div>
+        <div class="card-front__container flex-col">
+          <div class="card-front__top">
+            <p class="card-front__number">
+              0000 0000 0000 0000
+            </p>
+          </div>
+
+          <div class="card-front__bottom flex-row">
+            <p class="card-front__name">
+              Jane Appleseed
+            </p>
+            <p class="card-front__exp-date">
+              00/00
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="left-overlay__card-back">
+        <p class="card-back__cvv">
+          000
+        </p>
+      </div>
+    </div>
     <div class="right-overlay">
       <div class="card-form">
         <form action="">
@@ -24,12 +52,12 @@
             <label for="card-number">Card Number</label>
             <input type="text" name="card-number" placeholder="e.g. 1234 5678 9123 0000">
           </div>
-          <div class="flex-row">
+          <div class="flex-row gap-30">
             <div class="card-form__input-group">
               <label>Exp Date (MM/YY)</label>
-              <div class="flex-row">
-                <input type="number" placeholder="MM">
-                <input type="number" placeholder="YY">
+              <div class="flex-row gap-10">
+                <input type="number" placeholder="MM" class="w-50">
+                <input type="number" placeholder="YY" class="w-50">
               </div>
             </div>
             <div class="card-form__input-group flex-col">
