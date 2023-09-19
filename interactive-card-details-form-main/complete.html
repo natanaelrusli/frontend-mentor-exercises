@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left-overlay">
+      <div class="left-overlay__card-front">
+        <div class="card-front__logo">
+          <div class="big-circle"></div>
+          <div class="small-circle"></div>
+        </div>
+        <div class="card-front__container flex-col">
+          <div class="card-front__top">
+            <p class="card-front__number" id="cardNumber">
+              0000 0000 0000 0000
+            </p>
+          </div>
+
+          <div class="card-front__bottom flex-row">
+            <p class="card-front__name" id="cardHolderName">
+              Jane Appleseed
+            </p>
+            <p class="card-front__exp-date" id="cardExp">
+              00/00
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="left-overlay__card-back">
+        <div class="card-back__container">
+          <p class="card-back__cvv" id="cardCvv">
+            000
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="right-overlay">
+      <div class="offboarding flex-col">
+        <div class="offboarding__logo">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <div>
+          <p class="offboarding__heading">Thank You!</p>
+          <p class="offboarding__subtitle">We've added your card details</p>
+        </div>
+        <div>
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
