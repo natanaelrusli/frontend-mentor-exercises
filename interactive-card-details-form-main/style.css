@@ -185,6 +185,13 @@ body {
   .container {
     flex-direction: column;
   }
+
+  .right-overlay form {
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
+  }
+
   .left-overlay {
     width: 100vw;
     height: 25%;
@@ -257,6 +264,11 @@ body {
 .offboarding button  {
   margin-top: 50px;
   width: 350px;
+}
+
+.offboarding a {
+  color: var(--white);
+  text-decoration: none;
 }
 
 /* utility classes */

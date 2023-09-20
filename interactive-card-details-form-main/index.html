@@ -45,14 +45,14 @@
     </div>
     <div class="right-overlay">
       <div class="card-form">
-        <form action="">
+        <form action="./complete.html">
           <div class="card-form__input-group flex-col">
             <label for="card-name">Cardholder Name</label>
-            <input type="text" name="card-name" placeholder="e.g. Jane Appleseed">
+            <input id="cardHolderNameInput" type="text" name="card-name" placeholder="e.g. Jane Appleseed">
           </div>
           <div class="card-form__input-group flex-col">
             <label for="card-number">Card Number</label>
-            <input type="text" name="card-number" placeholder="e.g. 1234 5678 9123 0000">
+            <input id="cardNumberInput" type="number" name="card-number" placeholder="e.g. 1234 5678 9123 0000">
           </div>
           <div class="flex-row gap-30">
             <div class="card-form__input-group">
@@ -72,5 +72,7 @@
       </div>
     </div>
   </div>
+
+  <script src="./script.js" defer></script>
 </body>
 </html>
