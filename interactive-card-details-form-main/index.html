@@ -30,7 +30,7 @@
               Jane Appleseed
             </p>
             <p class="card-front__exp-date" id="cardExp">
-              00/00
+              <span id="expMonth">00</span>/<span id="expYear">00</span>
             </p>
           </div>
         </div>
@@ -58,13 +58,13 @@
             <div class="card-form__input-group">
               <label>Exp Date (MM/YY)</label>
               <div class="flex-row gap-10">
-                <input type="number" placeholder="MM" class="w-50">
-                <input type="number" placeholder="YY" class="w-50">
+                <input type="number" placeholder="MM" class="w-50" id="monthExpInput" maxlength="2">
+                <input type="number" placeholder="YY" class="w-50" id="yearExpInput">
               </div>
             </div>
             <div class="card-form__input-group flex-col">
               <label>CVC</label>
-              <input type="number" placeholder="e.g. 123">
+              <input type="number" placeholder="e.g. 123" id="cardCvvInput">
             </div>
           </div>
           <button>Confirm</button>
